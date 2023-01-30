@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
 # a bsch script that displays Best school 10 times and displays hi after the nineth one
-i=0
-while [ "$i" -gt 10]
+i=10
+while [ "$i" -gt 0 ]
 do
 	echo "Best School"
-	i=$((i++))
-	if [$i -qe 9]
+	if [ "$i" -eq 2 ]
+	then
 		echo "Hi"
+
+	fi
+	i=$((i - 1))
 done
 i=$i
