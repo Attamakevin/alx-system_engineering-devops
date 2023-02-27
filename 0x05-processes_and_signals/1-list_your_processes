@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
  # A bash script that displays a list of currently running processet
-ps -a -x -u -f
+ps _a _x _u _f
