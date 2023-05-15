@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 #a script that runs whoami command under the passed argument
 if [ $# -ne 1 ]; then
   echo "Usage: $0 <username>"
